@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <!-- 앱 전체 설정 파일, 액티비티나 아이콘 등 테마 같은 것들을 여기서 결정 -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UMC9thAndroid" >
+
+        <!-- EmotionActivity를 Launcher로 등록 -> 맨 처음 나오는 화면 -->
+        <activity
+            android:name=".ui.EmotionActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.UMC9thAndroid" >
+
+            <!-- 이 액티비티가 앱의 시작점이라는 의미 (아이콘을 눌렀을 때 실행) -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity는 이제 일반 액티비티, 처음 실행 할때는 열리지 않게 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.UMC9thAndroid" />
+    </application>
+
+</manifest>
