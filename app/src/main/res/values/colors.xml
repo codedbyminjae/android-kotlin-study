@@ -14,4 +14,10 @@
     <color name="normalColor">#9370DB</color>
     <color name="anxiousColor">#3CB371</color>
     <color name="sadColor">#FF6347</color>
+
+    <!-- 원하는 배경과 글자 아이콘 색 설정 -->
+    <color name="colorFrameBackground">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_bottom_navigation">#FF000000</color>
+
 </resources>
