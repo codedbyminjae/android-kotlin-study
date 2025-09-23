@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.umc"
-    compileSdk = 34 // 안정 버전
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.umc"
@@ -36,7 +36,7 @@ android {
     }
 
     buildFeatures {
-        viewBinding = true   //ViewBinding 활성화
+        viewBinding = true
     }
 }
 
@@ -46,6 +46,8 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.ktx)
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.fragment:fragment-ktx:1.6.2") // ← 권장 추가
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
