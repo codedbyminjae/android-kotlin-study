@@ -1,4 +1,4 @@
-package com.example.umc
+package com.example.umc.bottomnav
 
 import android.os.Bundle
 import android.view.Gravity

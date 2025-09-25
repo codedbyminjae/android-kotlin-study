@@ -1,8 +1,10 @@
-package com.example.umc
+package com.example.umc.bottomnav
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.example.umc.bottomnav.MypageFragment
+import com.example.umc.R
 import com.example.umc.databinding.ActivityBottomNavTestBinding
 
 class BottomNavTestActivity : AppCompatActivity() {

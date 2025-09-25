@@ -15,9 +15,9 @@
 
         <!-- 앱의 시작점: BottomNavTestActivity -->
         <activity
-            android:name=".BottomNavTestActivity"
+            android:name=".nike.NikeActivity"
             android:exported="true"
-            android:label="BottomNavTest"
+            android:label="Nike"
             android:theme="@style/Theme.UMC9thAndroid">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,9 +25,9 @@
             </intent-filter>
         </activity>
 
-        <!-- EmotionActivity: 런처 제거 -->
+        <!-- NikeActivity: 런처 실행 -->
         <activity
-            android:name=".ui.EmotionActivity"
+            android:name=".emotion.EmotionActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.UMC9thAndroid" />

@@ -1,6 +1,7 @@
-package com.example.umc.ui
+package com.example.umc.emotion
 
 import android.os.Bundle
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -13,7 +14,7 @@ class EmotionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        
+
         // 바인딩 초기화 후 레이아웃 붙이기
         binding = ActivityEmotionBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -52,7 +53,7 @@ class EmotionActivity : AppCompatActivity() {
 
     // 감정 선택 시 공통 실행 함수
     // 위에 클릭 이벤트 작동 시 함수 적용
-    private fun showEmotion(messageRes: Int, textView: android.widget.TextView, colorRes: Int) {
+    private fun showEmotion(messageRes: Int, textView: TextView, colorRes: Int) {
         // 메시지 보여주기
         Toast.makeText(this, getString(messageRes), Toast.LENGTH_SHORT).show()
         // 텍스트 색상 변경 (ContextCompat 함수는 구글링에서 찾은 함수, 색상 리소스를 가져오도록 도와줌)
