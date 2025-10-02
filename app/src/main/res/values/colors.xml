@@ -7,17 +7,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="emotionDefault">#666666</color>
-    <!-- 폰트 글씨 -->
-    <color name="happyColor">#FFD700</color>
-    <color name="excitedColor">#00BFFF</color>
-    <color name="normalColor">#9370DB</color>
-    <color name="anxiousColor">#3CB371</color>
-    <color name="sadColor">#FF6347</color>
 
-    <!-- 원하는 배경과 글자 아이콘 색 설정 -->
-    <color name="colorFrameBackground">#FFFFFF</color>
-    <color name="transparent">#00000000</color>
-    <color name="color_bottom_navigation">#FF000000</color>
+    <color name="colorPrimary">#9cbee2</color>
+    <color name="colorPrimaryDark">#062342</color>
+    <color name="colorAccent">#6bb2ff</color>
 
+    <color name="transparent">#00ff0000</color>
+    <color name="select_color">#3f3fff</color>
+    <color name="gray_color">#a8a8a8</color>
+
+    <color name="happyColor">#FFD700</color> <!-- 노랑 -->
+    <color name="excitedColor">#FF4500</color> <!-- 주황 -->
+    <color name="normalColor">#808080</color> <!-- 회색 -->
+    <color name="anxiousColor">#8A2BE2</color> <!-- 보라 -->
+    <color name="sadColor">#1E90FF</color> <!-- 파랑 -->
+
+    <!-- 🔥 새로 추가해야 하는 부분 -->
+    <color name="flo">#2D008D</color> <!-- FLO 보라색 (임시 HEX) -->
+    <color name="emotionDefault">#2196F3</color> <!-- EmotionActivity 기본 파란색 -->
 </resources>
