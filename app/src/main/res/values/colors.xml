@@ -10,19 +10,12 @@
 
     <color name="colorPrimary">#9cbee2</color>
     <color name="colorPrimaryDark">#062342</color>
+    <color name="colorPrimaryGrey">#424242</color>
     <color name="colorAccent">#6bb2ff</color>
 
     <color name="transparent">#00ff0000</color>
     <color name="select_color">#3f3fff</color>
     <color name="gray_color">#a8a8a8</color>
-
-    <color name="happyColor">#FFD700</color> <!-- 노랑 -->
-    <color name="excitedColor">#FF4500</color> <!-- 주황 -->
-    <color name="normalColor">#808080</color> <!-- 회색 -->
-    <color name="anxiousColor">#8A2BE2</color> <!-- 보라 -->
-    <color name="sadColor">#1E90FF</color> <!-- 파랑 -->
-
-    <!-- 🔥 새로 추가해야 하는 부분 -->
-    <color name="flo">#2D008D</color> <!-- FLO 보라색 (임시 HEX) -->
-    <color name="emotionDefault">#2196F3</color> <!-- EmotionActivity 기본 파란색 -->
+    <color name="song_player">#3f3fff</color>
+    <color name="song_player_bg">#a8a8a8</color>
 </resources>
