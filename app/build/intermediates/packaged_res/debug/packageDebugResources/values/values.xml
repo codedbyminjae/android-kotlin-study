@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="anxiousColor">#8A2BE2</color>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#6bb2ff</color>
+    <color name="colorPrimary">#9cbee2</color>
+    <color name="colorPrimaryDark">#062342</color>
+    <color name="emotionDefault">#2196F3</color>
+    <color name="excitedColor">#FF4500</color>
+    <color name="flo">#2D008D</color>
+    <color name="gray_color">#a8a8a8</color>
+    <color name="happyColor">#FFD700</color>
+    <color name="normalColor">#808080</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="sadColor">#1E90FF</color>
+    <color name="select_color">#3f3fff</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00ff0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">UMC-9th-Android</string>
+    <string name="cd_anxious">불안</string>
+    <string name="cd_excited">들뜸</string>
+    <string name="cd_happy">행복</string>
+    <string name="cd_normal">보통</string>
+    <string name="cd_sad">속상</string>
+    <string name="subtitle_pick_stamp">감정우표를 선택해주세요</string>
+    <string name="title_day_how">오늘 하루는 어땠나요?</string>
+    <string name="toast_anxious">생각이 많아지고 불안해요</string>
+    <string name="toast_excited">들뜨고 흥분돼요</string>
+    <string name="toast_happy">더없이 행복한 하루였어요</string>
+    <string name="toast_normal">평범한 하루였어요</string>
+    <string name="toast_sad">속상해요</string>
+    <style name="BottomNav_NoIndicator" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+    </style>
+    <style name="Theme.UMC9thAndroid" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_orange_light</item>
+    </style>
+    <style name="freesentation6_20sp_title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
