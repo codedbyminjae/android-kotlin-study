@@ -24,8 +24,4 @@ interface SongDao {
 
     @Query("SELECT * FROM SongTable WHERE isLike= :isLike")
     fun getLikedSongs(isLike: Boolean): List<Song>
-
-    // 앨범 기반 조회 추가
-    @Query("SELECT * FROM SongTable WHERE albumIdx = :albumIdx")
-    fun getSongsInAlbum(albumIdx: Int): List<Song>
 }
